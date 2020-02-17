@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="default_text_size">16sp</dimen>
+    <dimen name="padding_tv_cat">6dp</dimen>
+    <dimen name="sixteen_dp">16dp</dimen>
+</resources>

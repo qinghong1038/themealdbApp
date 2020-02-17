@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="2dp"
+    app:contentPadding="10dp"
+    android:id="@+id/categories_list_id"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/iv_categories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/categories_image"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+
+            android:id="@+id/tv_categories_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/tv_categories_name"
+            android:textSize="@dimen/default_text_size"
+            android:layout_toEndOf="@+id/iv_categories"
+            android:textStyle="bold"
+            android:padding="@dimen/padding_tv_cat"
+            />
+
+        <TextView
+            android:id="@+id/tv_categories_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_categories_description"
+            android:textSize="@dimen/default_text_size"
+            android:layout_toEndOf="@id/iv_categories"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/tv_categories_name"
+            android:ellipsize="end"
+            android:maxLines="4"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

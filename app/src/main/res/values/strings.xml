@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">themealdbApp</string>
+    <string name="categories_image">Categories Image</string>
+    <string name="tv_categories_name">Tv Categories Name</string>
+    <string name="tv_categories_description">TV Categories Description</string>
+    <string name="textview_name">TextView Name</string>
+</resources>
+
